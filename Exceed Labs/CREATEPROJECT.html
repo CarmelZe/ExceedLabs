@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Create Project</title>
+	<link rel="stylesheet" href="style.css">
+	<!--to insert some icons-->
+
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="sidebar">
+			<h2>ExceedLab</h2>
+			<ul>
+				<li><a href="homepage.php"><i class="fas fa-home"></i>Home</a></li>
+				<li><a href="CoWorkers.php"><i class="fas fa-user"></i>Co-Workers</a></li>
+				<li><a href="viewProject.php"><i class="fas fa-address-card"></i>Projects</a></li>
+				<li><a href="Push.php"><i class="fas fa-project-diagram"></i>Push</a></li>
+				<li><a href="AddRemark.php"><i class="fas fa-comment"></i>Add remark</a></li>
+				<li><a href="Contact.html"><i class="fas fa-address-book"></i>Contact</a></li>
+				<li><a href="viewRemark.php"><i class="fas fa-eye"></i>View Remark</a></li>
+				<li><a href="login.php"><i class="fas fa-sign-out-alt"></i>Log Out</a></li>
+			</ul>
+		</div>
+		<div class="main_content">
+			<div class="header"><h1>Create Project</h1></div>
+		</div>
+
+	</div>
+
+	<div class="userInput">
+		<form action="connect.php" method="POST">
+
+			<h3>Project Name:</h3>
+			<input type="text" name="pname"><br>
+
+			<h3>Project Date:</h3>
+			<input type="DATETIME" name="pdate"><br>
+
+			<input type="submit" value="Save">
+		</form>
+	</div>
+
+	<nav>
+		<div class="logo">
+			
+		</div>
+		<ul>
+			<li><a href="CREATEPROJECT.html"><i class="fas fa-plus" aria-hidden="true"></i>Create Project</a></li>
+			<li><a href="AssignTask.php"><i class="fas fa-tasks"></i>Assign Task</a></li>
+			<li><a href="PullProject.php"><i class="fas fa-download"></i>Pull Project</a></li>
+			<li><a href="AssignedTasks.php"><i class="fas fa-eye"></i>Assigned Tasks</a></li>
+		</ul>
+	</nav>
+
+</body>
+</html>
